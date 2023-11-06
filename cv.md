@@ -13,6 +13,6 @@ I like programming. It is fascinating and interesting. I have a main job, progra
 
 ## Skills
 
-1. Web-development: HTML5, CSS3, JavaScrip
+1. Web-development: HTML5, CSS3, JavaScript
 2. Version control: GIT, Github
 3. Graphics: Figma
