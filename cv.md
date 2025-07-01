@@ -19,3 +19,28 @@ Motivated Frontend Developer with a strong foundation in **HTML**, **CSS**, **Ja
 - **Version Control & Learning Agility**: Managed projects on GitHub and independently mastered TypeScript and modern tools.
 
 ---
+## 🚀 What I Bring
+
+- **Strong Frontend Foundation**: Proficient in HTML, CSS, and JavaScript, delivering responsive and interactive web interfaces.  
+- **Eagerness to Grow**: Quick learner with hands-on React and TypeScript experience, driven to master new technologies.  
+- **Problem-Solving Mindset**: Tackled technical challenges in projects like custom sliders and dynamic modals.
+
+---
+## 🛠️ Skills
+
+- **Core**: HTML5, CSS3, JavaScript, TypeScript  
+- **Frameworks**: React  
+- **Tools**: Git, Vite, ESLint, Prettier, Figma, WebStorm, VS Code  
+- **Methodologies**: Scrum
+
+---
+
+## 🧪 Projects (from experience)
+
+- Interactive Form  
+- Modal Window (JavaScript)  
+- CSS/JS Slider Tool  
+- Image Gallery  
+- Audio Player
+
+---
