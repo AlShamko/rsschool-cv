@@ -1,0 +1,43 @@
+@import "styles/flexWrapper.css";
+@import "styles/container.css";
+@import "styles/header.css";
+
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.2;
+    min-width: 360px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+ul {
+    list-style: none;
+}
+
+/* main start style */
+    .main {
+        border: 1px black solid;
+        flex: 1 1 auto;
+    }
+/* main end style */
+
+/* footer start style */
+    .footer {
+        border: 1px black solid;
+    }
+/* footer end style */

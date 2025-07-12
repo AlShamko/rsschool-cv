@@ -1,0 +1,29 @@
+/* header start style */
+
+.header {
+    background: #1F1F20;
+    padding: 20px 0;
+}
+
+.header .flexWrapper {
+    justify-content: space-between;
+}
+
+.menu__list {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.menu__item a{
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    text-align: center;
+    color: #7572D5;
+}
+
+.burger-menu {
+    display: none;
+}
+/* header end style */
