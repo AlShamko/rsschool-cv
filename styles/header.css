@@ -1,7 +1,7 @@
 /* header start style */
 
 .header {
-    background: #1F1F20;
+    background: white;
     padding: 20px 0;
 }
 
@@ -9,9 +9,13 @@
     justify-content: space-between;
 }
 
+.logo {
+    cursor: pointer;
+}
+
 .menu__list {
     display: flex;
-    flex-direction: row;
+    flex-wrap: wrap;
     gap: 30px;
 }
 
@@ -21,6 +25,11 @@
     font-size: 30px;
     text-align: center;
     color: #7572D5;
+    transition: 0.3s;
+}
+
+.menu__item a:hover {
+    color:  red;
 }
 
 .burger-menu {

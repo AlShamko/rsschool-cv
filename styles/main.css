@@ -1,0 +1,149 @@
+/* main start style */
+.main {
+    flex: 1 1 auto;
+    background-color: white;
+}
+
+/* hero start style */
+
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.hero .flexWrapper {
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    gap: 30px;
+}
+
+@media screen and (max-width: 800px) {
+    .hero .flexWrapper {
+        flex-wrap: wrap;
+    }
+}
+
+.hero-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    max-width: 600px;
+}
+
+.smallText {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.name {
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 50px;
+    margin: 15px 0;
+}
+
+
+.mainTitle {
+    font-family: "Poppins", sans-serif;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 32px;
+    margin-bottom: 50px;
+    color: black;
+}
+
+.social {
+    display: flex;
+    gap: 30px;
+}
+
+
+.hero__mail, .hero__telegram{
+    display: flex;
+    gap: 10px;
+}
+
+.mail__img, .telegram__img{
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+}
+
+.mail__link, .telegram__link{
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    color: black;
+}
+
+
+.hero-foto {
+
+}
+
+.hero-foto img{
+    max-width: 250px;
+    max-height: 250px;
+    object-fit: cover;
+    border-radius: 50%;
+    background: transparent;
+}
+
+/* hero end style */
+
+/* about me start style */
+.about, .flexWrapper {
+    justify-content: space-between;
+    gap: 40px;
+}
+.about__img {
+    max-width: 400px;
+}
+
+.about__description {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    max-width: 600px;
+}
+
+.about__img img{
+    width: 100%;
+    border-radius: 5%;
+}
+
+.about__text {
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 20px;
+    padding-bottom: 15px;
+    color: black;
+}
+
+.education__title,.english__title{
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 20px;
+    padding-bottom: 10px;
+    margin-top: 10px;
+    color: black;
+}
+.education__text,.english__text {
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 20px;
+    padding-bottom: 5px;
+    color: black;
+}
+
+
+/* about me end style */
+
+
+/* main end style */

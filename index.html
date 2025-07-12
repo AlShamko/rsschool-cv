@@ -2,9 +2,9 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
     <link
             href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Poppins&display=swap"
             rel="stylesheet"
@@ -17,13 +17,13 @@
 <header class="header">
     <div class="container">
         <div class="flexWrapper">
-            <logo class="logo"><img src="./assets/logo/logo.svg" alt=""></logo>
+            <logo class="logo"><img src="./assets/logo/logo.svg" alt="Logo"></logo>
             <nav class="menu">
                 <ul class="menu__list">
-                    <li class="menu__item"><a href="">Home</a></li>
+                    <li class="menu__item"><a href="#hero">Home</a></li>
+                    <li class="menu__item"><a href="#about">About me</a></li>
                     <li class="menu__item"><a href="">Skills</a></li>
                     <li class="menu__item"><a href="">Works</a></li>
-                    <li class="menu__item"><a href="">Testimony</a></li>
                     <li class="menu__item"><a href="">Contact</a></li>
                 </ul>
             </nav>
@@ -35,7 +35,84 @@
 </header>
 
 <main class="main">
-    main
+    <section id="hero" class="hero">
+        <div class="container">
+            <div class="flexWrapper">
+                <div class="hero-content">
+                    <p class="smallText">Hi There</p>
+                    <h2 class="name">I am <span>Aliaksandr Shamko</span></h2>
+                    <h1 class="mainTitle">Front-End Developer</h1>
+                    <div class="social">
+                        <div class="hero__mail">
+                            <svg width="32px" height="32px" viewBox="0 0 32 32" fill="none"
+                                 xmlns="http://www.w3.org/2000/svg">
+                                <path d="M4 18L9 12M20 18L15 12M3 8L10.225 12.8166C10.8665 13.2443 11.1872 13.4582 11.5339 13.5412C11.8403 13.6147 12.1597 13.6147 12.4661 13.5412C12.8128 13.4582 13.1335 13.2443 13.775 12.8166L21 8M6.2 19H17.8C18.9201 19 19.4802 19 19.908 18.782C20.2843 18.5903 20.5903 18.2843 20.782 17.908C21 17.4802 21 16.9201 21 15.8V8.2C21 7.0799 21 6.51984 20.782 6.09202C20.5903 5.71569 20.2843 5.40973 19.908 5.21799C19.4802 5 18.9201 5 17.8 5H6.2C5.0799 5 4.51984 5 4.09202 5.21799C3.71569 5.40973 3.40973 5.71569 3.21799 6.09202C3 6.51984 3 7.07989 3 8.2V15.8C3 16.9201 3 17.4802 3.21799 17.908C3.40973 18.2843 3.71569 18.5903 4.09202 18.782C4.51984 19 5.07989 19 6.2 19Z"
+                                      stroke="#7572D5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                            <a href="mailto:shamkoag@gmail.com" class="mail__link">shamkoag@gmail.com</a>
+                        </div>
+                        <div class="hero__telegram">
+                            <svg width="32px" height="32px" viewBox="0 0 32 32" fill="none"
+                                 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">>
+                                <g id="telegram">
+                                    <path d="M18.9 4.76L16.37 16.72C16.17 17.56 15.68 17.77 14.97 17.37L11.1 14.53L9.24 16.32C9.03 16.53 8.86 16.7 8.46 16.7L8.74 12.76L15.9 6.29C16.21 6.02 15.83 5.86 15.42 6.14L6.57 11.71L2.76 10.52C1.93 10.26 1.91 9.69 2.93 9.29L17.83 3.55C18.52 3.29 19.13 3.71 18.9 4.76Z"
+                                          fill="#7572D5" fill-opacity="1.000000" fill-rule="nonzero"/>
+                                </g>
+                            </svg>
+                            <a href="#" class="telegram__link">@Shamkoag</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero-foto">
+                    <img src="./assets/img/avatar.webp" alt="avatar">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="container">
+            <h2 class="title">About me</h2>
+            <div class="flexWrapper">
+                <div class="about__img">
+                    <img src="./assets/img/foto-comp.jpg" alt="foto">
+                </div>
+                <div class="about__description">
+                    <div class="about__text">
+                        <p>
+                            Seeking a position as a frontend developer in a dynamic and
+                            innovative company where I can apply my skills in developing
+                            modern web applications and contribute to enhancing the user
+                            experience.
+                        </p>
+                    </div>
+                    <div class="education">
+                        <div class="education__title">Education :</div>
+                        <ul class="education__text">
+                            <li>&#9726; Belarusian State University
+                            <li>
+                            <li>&#9726; Belarusian State University Advanced Training Institude
+                            <li>
+                        </ul>
+                    </div>
+
+                    <div class="english">
+                        <div class="english__title">Languages :</div>
+                        <ul class="english__text">
+                            <li>&#9726; English : B1
+                            <li>
+                            <li>&#9726; Poland : B1
+                            <li>
+                            <li>&#9726; Russian : native
+                            <li></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
 </main>
 <footer class="footer">
     footer
