@@ -17,14 +17,14 @@
 <header class="header">
     <div class="container">
         <div class="hero__flexWrapper">
-            <logo class="logo"><img src="./assets/logo/logo.svg" alt="Logo"></logo>
+            <a href="index.html" class="logo"><img src="./assets/logo/logo.svg" alt="Logo"></a>
             <nav class="menu">
                 <ul class="menu__list">
                     <li class="menu__item"><a href="#hero">Home</a></li>
                     <li class="menu__item"><a href="#about">About me</a></li>
                     <li class="menu__item"><a href="#skills">Skills</a></li>
-                    <li class="menu__item"><a href="">Works</a></li>
-                    <li class="menu__item"><a href="">Contact</a></li>
+                    <li class="menu__item"><a href="#works">Works</a></li>
+                    <li class="menu__item"><a href="#contact">Contact</a></li>
                 </ul>
             </nav>
             <div class="burger-menu">
@@ -222,7 +222,7 @@
         </div>
     </section>
 
-    <section class="works">
+    <section class="works" id="works">
         <div class="container">
             <div class="works__flexWrapper">
                 <h2 class="title">My Works</h2>
@@ -308,9 +308,28 @@
             </div>
         </div>
     </section>
+
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="contact__flexWrapper">
+                <h2 class="title">Contact</h2>
+                <form class="contact__form" action="">
+                    <input type="text" placeholder="Name">
+                    <input type="email" placeholder="Email">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Message"></textarea>
+                    <button class="btn">Send</button>
+                </form>
+            </div>
+        </div>
+    </section>
 </main>
+
 <footer class="footer">
-    footer
+    <div class="footer__logo">
+        <a href="https://rs.school/courses/javascript-preschool-ru" class="rsschool"><img src="./assets/img/icons/272301971_689444065771905_3094245969887922113_n.jpg" alt="rsschool"></a>
+    </div>
+    <div class="rights">2025</div>
+    <a href="https://github.com/AlShamko" class="link__nav"><img src="./assets/img/icons/github.png" alt="git"></a>
 </footer>
 </body>
 </html>

@@ -2,6 +2,7 @@
 @import "styles/container.css";
 @import "styles/header.css";
 @import "styles/main.css";
+@import "styles/footer.css";
 
 *,
 *::before,
@@ -46,9 +47,3 @@ ul {
     color: #7572D5;
     margin-bottom:  50px;
 }
-
-/* footer start style */
-    .footer {
-        border: 1px black solid;
-    }
-/* footer end style */

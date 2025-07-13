@@ -1,0 +1,14 @@
+.footer {
+    margin: 60px 5px 5px 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding: 10px 0;
+}
+
+.footer img {
+    height: 24px;
+    width: 24px;
+    border-radius: 5px;
+}

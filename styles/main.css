@@ -211,6 +211,9 @@
 
 /* skills end style */
 
+
+/* works start style */
+
 .works__flexWrapper {
     display: flex;
     flex-direction: column;
@@ -285,16 +288,18 @@
 }
 
 .work__link a {
+    text-decoration: none;
     font-weight: 400;
     font-size: 14px;
     letter-spacing: 1px;
     text-transform: uppercase;
     padding: 10px;
+    color: black;
     cursor: pointer;
 }
 
 .work__link a:hover {
-    color:red;
+    color: red;
 }
 
 .work__code {
@@ -306,9 +311,60 @@
 }
 
 
-/* works start style */
-
-
 /* works end style */
 
+/* contact start style */
+
+.contact {
+    padding: 100px 0;
+}
+
+.contact__flexWrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact__form {
+    max-width: 500px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    margin: 0 auto;
+}
+
+input, textarea {
+    width: 100%;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    letter-spacing: 0.05em;
+}
+
+textarea {
+    resize: none;
+    height: 155px;
+}
+
+
+button {
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    width: 170px;
+    height: 32px;
+    background-color: unset;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+    color: #7572D5;
+}
+
+button:hover {
+    color: red;
+}
 /* main end style */
