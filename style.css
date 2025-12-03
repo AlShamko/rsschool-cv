@@ -1,0 +1,49 @@
+@import "styles/flexWrapper.css";
+@import "styles/container.css";
+@import "styles/header.css";
+@import "styles/main.css";
+@import "styles/footer.css";
+
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.2;
+    min-width: 360px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+    color: black;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+ul {
+    list-style: none;
+}
+
+.title {
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 36px;
+    letter-spacing: 5px;
+    padding-bottom: 20px;
+    text-align: center;
+    color: #7572D5;
+    margin-bottom:  50px;
+}
