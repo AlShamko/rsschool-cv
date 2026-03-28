@@ -38,6 +38,18 @@ ul {
     margin: 0 auto;
 }
 
+.title {
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 36px;
+    letter-spacing: 5px;
+    padding-bottom: 20px;
+    text-align: center;
+    color: #7572D5;
+    margin-bottom:  50px;
+}
+
 /* header start style */
 
 .header {
@@ -67,7 +79,7 @@ ul {
 .menu__item a{
     font-family: "Josefin Sans", sans-serif;
     font-weight: 400;
-    font-size: 30px;
+    font-size: 1.2rem;
     text-align: center;
     color: #7572D5;
     transition: 1.0s;
